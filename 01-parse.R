@@ -155,19 +155,7 @@ for (post.year in 2021:2023) {
   
   
 }
-  
 
-
-# blogpost.data.tags <-
-# blogpost.data.all %>% tail()
-#   group_by(services.summary, blogpost.title, year, month, post.page, url, blogpost.labels) %>%
-#   summarise(n = dplyr::n(), .groups = "drop") %>%
-#   select( (-n) )  %>%
-#   mutate( tags = str_c("tag:",blogpost.labels))%>%
-#   pivot_wider(names_from = blogpost.labels, values_from = tags)
-# 
-# blogpost.data.tags %>% 
-#   names()
 
 source("custom_functions.R")
 
